@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main main block
- * Description: Use `putchar` to print all letters but the letter 'q' and 'e'.
+ * main - main block
+ * Description: Use `putchar` to print letters except 'q' and 'e'.
  * Return: 0
  */
 int main(void)
