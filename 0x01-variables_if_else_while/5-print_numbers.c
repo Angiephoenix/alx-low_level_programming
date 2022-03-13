@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 /**
  * main - main block
  * Description: Print numbers of base 10, starting from 0.
