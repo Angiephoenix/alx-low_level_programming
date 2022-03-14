@@ -22,6 +22,7 @@ j = i % 10; /* singles digit */
 k = i / 10; /* doubles digit */
 
 if (k < j)
+{
 putchar(k + '0');
 putchar(j + '0');
 
