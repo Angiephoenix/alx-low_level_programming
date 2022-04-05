@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 i#ifndef MAIN_H
+=======
+#ifndef MAIN_H
+>>>>>>> 925e66866c9c807c9b911e840387160629b78890
 #define MAIN_H
 
 int _putchar(char c);
