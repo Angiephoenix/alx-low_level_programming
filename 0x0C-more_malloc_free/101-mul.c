@@ -16,6 +16,7 @@ for (len = 0; *str != '\0'; len++)
 len++, str++;
 return (len / 2);
 }
+
 /**
  * _calloc - allocates memory for an array using malloc
  * @bytes: bytes of memory needed per size requested
@@ -38,6 +39,7 @@ for (i = 0; i < bytes * size; i++)
 p[i] = 0;
 return ((void *)p);
 }
+
 /**
  * add_arrays - adds 2 arrays of ints
  * @mul_result: pointer to array with numbers from product
@@ -58,6 +60,7 @@ i++;
 len_r2--;
 }
 }
+
 /**
  * is_digit - checks for digits
  * @c: input character to check for digit
@@ -70,6 +73,7 @@ return (1);
 printf("Error\n");
 return (0);
 }
+
 /**
  * multiply - multiplies 2 #'s, prints result, must be 2 #'s
  * @num1: factor # 1 (is the smaller of 2 numbers)
@@ -108,6 +112,7 @@ i++, i1--;
 }
 return (sum_result);
 }
+
 /**
  * print_me - prints my array of the hopeful product here
  * @sum_result: pointer to int array with numbers to add
@@ -126,6 +131,7 @@ while (i < len_r)
 _putchar(sum_result[i++] + '0');
 _putchar('\n');
 }
+
 /**
  * main - multiply 2 input #'s of large lengths and print result or print Error
  * @argc: input count of args
@@ -156,3 +162,4 @@ if (sum_result == NULL)
 exit(98);
 print_me(sum_result, len_r);
 return (0);
+}
